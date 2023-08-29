@@ -4,13 +4,13 @@ import Index from '../views/index.vue' // Assuming you have this component
 
 const routes = [
   {
-    path: '/screen',
+    path: '/vue3-vite-screen',
     name: 'index',
     component: Index, // Directly use the imported component
   },
   {
     path: '/:pathMatch(.*)*', // New wildcard syntax in Vue Router 4
-    redirect: '/screen',
+    redirect: '/vue3-vite-screen',
   },
 ]
 
