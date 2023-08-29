@@ -5,7 +5,7 @@
   </div>
 </template>
 <script setup>
-  import { ref, onMounted, watch } from 'vue'
+  import { ref, onMounted } from 'vue'
   import * as echarts from 'echarts'
   // 地图导入
   import mapJson from '@/assets/mapData/china.json'
@@ -221,8 +221,7 @@
     // 3. 通过 实例.setOptions(option)
     mChart.setOption(options);
   }
-
-  watch(() => props.data, renderChart)
+ 
 </script>
 <style lang="scss" scoped>
 
