@@ -49,10 +49,10 @@
       // 图表绘制的位置，对应 上下左右
       grid: {
         top: 16,
-        right: 0,
-        bottom: 26,
-        left: -26,
-        containLabel: true
+        right: 1,
+        bottom: 46,
+        left: 1,
+        //containLabel: true
       },
       // 核心配置 
       series: [
