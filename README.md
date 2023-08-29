@@ -1,4 +1,4 @@
-# screen-earth
+# vue3-vite-screen
 
 可视化大屏
 
