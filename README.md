@@ -30,4 +30,6 @@ npm run build
 
 ## 大屏展示
 
+演示地址：[https://huzgl.github.io/vue3-vite-screen/](https://huzgl.github.io/vue3-vite-screen/)
+
 ![大屏展示.png](show.png)
