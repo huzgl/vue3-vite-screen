@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Electronic';
-  src: url('./assets/fonts/FX-LED.ttf');
+  src: url('./assets/fonts/FX-LED.TTF');
 }
 /*  背景渐变+ 字体镂空 */
 .text-gradient {
